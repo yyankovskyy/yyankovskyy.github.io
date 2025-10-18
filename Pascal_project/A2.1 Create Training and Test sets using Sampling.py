@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
+Created on Dec18 23:57:20 2017
 
-@author: Eugene Yankovsky 
+@author: Eugene Yankovsky (VN621JF)
 
 # Diagnostic steps are commented out
 """

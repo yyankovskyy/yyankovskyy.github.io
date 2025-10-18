@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-@author: Eugene Yankovsky 
+Created on Fri Dec  8 22:09:12 2017
 
+@author: qings
 """
 
 import pandas as pd
@@ -17,9 +18,9 @@ start_time = time.clock()
 stopwords = nltk.corpus.stopwords.words('portuguese')
 stopwords_noaccent = [unidecode(w) for w in stopwords]
 
-os.chdir("C:\\Users\\") #path for EY Benchmark Data output after data cleansing
+os.chdir("C:\\Users\\qingch\\Desktop\\Foundry") #path for EY Benchmark Data output after data cleansing
 
-file = "C:\\Users\\EY Benchmark Data.xlsx" #Raw data file
+file = "C:\\Users\\qingch\\Desktop\\Foundry\\EY Benchmark Data\\EY Benchmark Data.xlsx" #Raw data file
 
 df = pd.read_excel(file, sheet_name='Sheet1')
 

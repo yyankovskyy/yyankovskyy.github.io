@@ -2,7 +2,7 @@
 """
 Created on Tue Dec  5 21:53:44 2017
 
-@author: Eugene Yankovsky
+@author: qings
 """
 
 import pandas as pd
@@ -17,7 +17,7 @@ import time
 import datetime
 
 start_time = time.clock()
-os.chdir("C:\\")
+os.chdir("C:\\Users\\qingch\\Desktop\\Foundry\\Results")
 df_train = pd.read_pickle('Training Set.pkl')
 df_test = pd.read_pickle('Testing Set.pkl')
 

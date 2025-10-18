@@ -1,10 +1,10 @@
 
 #'#*****************************************************************************************************************************************************
 ''# Project name  				: Intelligent Classifier
-''# File Name   				: Updated_Python_Code_template.py 
-''# Date of Updation    		: 09 Nov 2019
+''# File Name   					: Updated_Python_Code_template.py 
+''# Date of Updation    			: 09 Nov 2017
 ''# Purpose       				: Python Code Template for Upload into Intelligent Classifier Solution
-''# Created By      			: Eugene Yankovsky
+''# Created By      				: AISDT Dev Team
 #'#***************************************************************************************************************************************************** 
 
 #SPECIFY PACKAGES USED:
@@ -32,7 +32,7 @@ from unidecode import unidecode
 #---------------------------------------------------------------#
   
 
-#Training_Data = pd.read_pickle('C:\\Users\\Desktop\\Foundry\\Sample Data\\input_dataframe.pkl')
+#Training_Data = pd.read_pickle('C:\\Users\\qingch\\Desktop\\Foundry\\Sample Data\\input_dataframe.pkl')
  
 #PRE-PROCESSING STEP
 
@@ -44,7 +44,7 @@ from unidecode import unidecode
 ''# Steps Followed					: Includes Stemming,Lemmatization, stop words removal, entity  normalization, engineered features,vectorisation
 ''# Input Parameters      			: Input dataframe   $consolidated data for model training as dataframe
 ''# Output Parameters   			: Processed dataframe,Target_class / label,Vectorized Data, Function execution success flag,Function execution Status Description
-''# Author     						: Eugene Yankovsky
+''# Author     						: AISDT Dev Team
 #'#****************************************************************************************************************************************************
 
 
@@ -116,7 +116,7 @@ def pre_processing(input_dataframe, Training_Data):
 ''# Steps Followed					: Includes model algorithm execution & model file creation
 ''# Input Parameters      			: Target_class / label, Vectorized Data from Pre-processing
 ''# Outputs Parameters   			: Model File Object will be returned,Function execution success flag,Function execution Status Description
-''# Author     						: Eugene Yankovsky
+''# Author     						: AISDT Dev Team
 #'#****************************************************************************************************************************************************
 
 #Define Model Training function below:
@@ -144,7 +144,7 @@ def model_train(target_class, vectorized_data):
 ''# Input Parameters      			: Model_file, Training_Data, Prediction_Data
 ''# Output Parameters   			: Predicted File will be returned with new predicted target_class column & confidence score of prediciton per row,
 ''#									  Function execution success flag,Function execution Status Description
-''# Author     						: Eugene Yankovsky
+''# Author     						: AISDT Dev Team
 #'#****************************************************************************************************************************************************
 
 #Define Prediction function below:

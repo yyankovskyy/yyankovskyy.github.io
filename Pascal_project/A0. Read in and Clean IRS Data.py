@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-@author: Eugene Yankovsky 
+Created on Tue Nov 14 23:57:20 2017
 
+@author: qingch
 """
 
 import pandas as pd
@@ -14,8 +15,8 @@ import nltk
 
 start_time = time.clock()
 
-os.chdir("C:\\Users\\")
-path = "C:\\Users\\"
+os.chdir("C:\\Users\\qingch\\Desktop\\Foundry")
+path = "C:\\Users\\qingch\\Desktop\\Foundry\\Raw Data"
 
 code_count = []
 record_list = []
